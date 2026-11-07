@@ -1,0 +1,16 @@
+{
+  "name": "mochi-pal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mochi Pal: a virtual pet web game. No build step; these scripts are dev tools only.",
+  "author": "Dilshani Rathnayake (https://github.com/dilshanir)",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs 8080",
+    "test": "node tools/playtest.mjs",
+    "balance": "node tools/balance.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
